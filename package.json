@@ -1,0 +1,19 @@
+{
+  "name": "tellimer-engeneering-experiment",
+  "version": "1.0.0",
+  "description": "Blog using Nuxt Content TellimerExperimental.",
+  "author": "Tellimer Engineering Experiment",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "export": "nuxt export",
+    "start": "nuxt serve",
+    "generate": "nuxt generate",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@nuxt/content": "^1.10.0",
+    "nuxt": "^2.14.7"
+  }
+}
